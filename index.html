@@ -14,13 +14,13 @@
       <nav class="header__menu">
         <ul class="header__links-list">
           <li class="header__links-list-item_no-bullit">
-            <a href="#" class="header__link_active">главная</a>
+            <a href="#cover" class="header__link_active">главная</a>
           </li>
           <li>
-            <a href="#" class="header__link">посмотреть лоты</a>
+            <a href="#lots" class="header__link">посмотреть лоты</a>
           </li>
           <li>
-            <a href="#" class="header__link">об аукционе</a>
+            <a href="#about" class="header__link">об аукционе</a>
           </li>
         </ul>
       </nav>
@@ -40,7 +40,7 @@
       </address>
     </header>
     <main>
-      <section class="cover background-position">
+      <section class="cover background-position" id="cover">
         <div class="overlay">
           <h1 class="white-text uppercase-text letter-spacing-extended cover__title">
             <span class="aligned-text">о<span class="accent-span">но</span></span>
@@ -49,13 +49,13 @@
           </h1>
           <div class="uppercase-text white-text cover__description">
             <p class="white-text cover__description-text">Аукцион вещей, в которые никто не верил</p>
-            <button class="bet-button white-text">
-              <a href="#" class="bet-button__link uppercase-text">Сделать ставку</a>
+            <button id="#" class="bet-button white-text uppercase-text">
+              Сделать ставку
             </button>
           </div>
         </div>
       </section>
-      <section class="lots">
+      <section class="lots" id="lots">
         <h2 class="uppercase-text lots__heading">Лоты</h2>
         <ul class="lots__card-list">
           <li class="background-position lots__card-list-item card_type_film">
@@ -79,7 +79,7 @@
             </a>
           </li>
           <li class="background-position lots__card-list-item card_type_picture">
-            <a href="#"class="card-link">
+            <a href="#" class="card-link">
               <article class="card overlay">
                 <h3 class="uppercase-text card__title white-text">Картина, которую повторит даже 5-летний сын маминой подруги</h3>
                 <p class="white-text card__text">
@@ -93,7 +93,7 @@
         </ul>
         <a href="#" class="lots__look-more-link">посмотреть больше</a>
       </section>
-      <section class="about">
+      <section class="about" id="about">
         <div class="about__column">
           <div class="about__logo-column">
             <div class="about__logo">
@@ -131,30 +131,40 @@
       <nav class="footer__menu">
         <ul class="footer__menu-list">
           <li>
-            <a href="#" class="footer__menu-link_active">главная</a>
+            <a href="#cover" class="footer__menu-link_active">главная</a>
           </li>
           <li>
-            <a href="#" class="footer__menu-link">посмотреть лоты</a>
+            <a href="#lots" class="footer__menu-link">посмотреть лоты</a>
           </li>
           <li>
-            <a href="#" class="footer__menu-link">об аукционе</a>
+            <a href="#about" class="footer__menu-link">об аукционе</a>
           </li>
         </ul>
       </nav>
       <ul class="footer__social-list">
         <li class="footer__social-list-item">
           <a href="#" class="footer__social-link">
-            <img src="./images/yt.svg" class="footer__social-icon">
+            <img
+            src="./images/yt.svg"
+            class="footer__social-icon"
+            alt="Изображение логотипа соцсети YouTube"
+            >
           </a>
         </li>
         <li class="footer__social-list-item">
           <a href="#" class="footer__social-link">
-            <img src="./images/vk.svg" class="footer__social-icon">
+            <img
+            src="./images/vk.svg"
+            class="footer__social-icon"
+            alt="Изображение логотипа соцсети VK">
           </a>
         </li>
         <li class="footer__social-list-item">
           <a href="#" class="footer__social-link">
-            <img src="./images/pinterest.svg" class="footer__social-icon">
+            <img
+            src="./images/pinterest.svg"
+            class="footer__social-icon"
+            alt="Изображение логотипа соцсети Pinterest">
           </a>
         </li>
       </ul>
